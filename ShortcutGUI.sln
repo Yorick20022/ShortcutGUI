@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortcutGUI", "ShortcutGUI\ShortcutGUI.csproj", "{9AC06BDB-2319-4CCA-BAE4-17A15192229D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AC06BDB-2319-4CCA-BAE4-17A15192229D}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC06BDB-2319-4CCA-BAE4-17A15192229D}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{9AC06BDB-2319-4CCA-BAE4-17A15192229D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC06BDB-2319-4CCA-BAE4-17A15192229D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEF9EAEB-6D37-4409-A9BE-3D421FF56DF0}
+	EndGlobalSection
+EndGlobal

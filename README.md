@@ -16,4 +16,4 @@ ShortcutGUI is a GUI desktop app that helps you manage and save shortcuts as tex
 - Add shortcuts through the GUI.
 - Find shortcuts through the GUI
 ## Short demo
-![ShortcutGUI](https://r2.fivemanage.com/pub/7t7i9pmtc91x.gif)
+![ShortcutGUI](https://github.com/user-attachments/assets/db0044cd-1e4a-4d74-9773-bbd6aad6e1f5)

@@ -11,6 +11,6 @@ namespace ShortcutGUI.models
         public int Id { get; set; }
 
         [Column("MostUsedTreshold")]
-        public int MostUsedTreshold { get; set; }
+        public int MostUsedTreshold { get; set; } = 0;
     }
 }

@@ -16,6 +16,7 @@ namespace ShortcutGUI
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
+            this.KeyPreview = true;
 
             // Initialize ListBox for suggestions
             suggestionListBox = new ListBox();
@@ -114,6 +115,14 @@ namespace ShortcutGUI
                 // Update the database
                 db.Update(returnedData);
                 db.Close();
+            }
+        }
+
+        private void textBox2_KeyPress(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                ConfirmFindButton.PerformClick();
             }
         }
 
